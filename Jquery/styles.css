@@ -1,0 +1,10 @@
+.big-title{
+    font-size: 10rem;
+    color: yellow;
+    font-family:fantasy;
+}
+
+.clicked{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

@@ -1,0 +1,156 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#title{
+    color: white;
+    background-color:#ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* FEATURE SECTION */
+
+#features{
+    background-color: white;
+    padding: 4% 2%;
+    position: relative;
+}
+
+.feature-description{
+    color: #8f8f8f;
+}
+
+.feature-item{
+    padding: 4%;
+    text-align: center;
+}
+
+.feature-icon{
+    color: #ef8172;
+    font-size: 2.5rem !important;
+}
+
+.feature-icon:hover{
+    color: #ff4c66;
+}
+
+#testimonials{
+    text-align: center;
+    color: white;
+    background-color:#ef8172;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* IMAGE SECTION */
+
+.test-image{
+    width: 12%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color:#ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    margin: 15px 25px;
+}
+
+#pricing{
+    padding: 90px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    padding: 5% 7% 0 7%;
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+}
+
+.cta-title{
+    font-size: 3rem;
+}
+
+footer{
+    padding: 2%;
+    text-align: center;
+}
+
+.footer-text{
+    font-family: 'Montserrat';
+}
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    
+    .title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+        margin: 15px;
+    }
+}
